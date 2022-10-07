@@ -5,3 +5,11 @@
 .header {
   background: #161b22;
 }
+
+.nav-link {
+  counter-increment: count;
+}
+
+.nav-link::before {
+  content: attr(data-count);
+}

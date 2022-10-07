@@ -71,12 +71,18 @@
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav navbar-nav-scroll">
-              <a class="nav-link active" aria-current="page" href="#About"
+              <a
+                class="nav-link"
+                data-count="01. "
+                aria-current="page"
+                href="#About"
                 >About</a
               >
-              <a class="nav-link" href="#Experience">Experience</a>
-              <a class="nav-link" href="#">Work</a>
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" data-count="02. " href="#Experience"
+                >Experience</a
+              >
+              <a class="nav-link" data-count="03. " href="#Work">Work</a>
+              <a class="nav-link" data-count="04. " href="#Contact">Contact</a>
             </div>
           </div>
         </div>
@@ -98,96 +104,11 @@
           <h1 class="display-5 fw-bold">Hi, I'm Wade Walsh</h1>
           <div class="col-lg-8 mx-auto">
             <p class="lead mb-4">
-              Hi, My name is Wade Walsh and I am an aspiring Web/ Software
-              Developer. I have an eagerness and passion for developing
-              software, creating websites, writing code, learning and developing
-              skills and knowledge that will benefit my career in the industry.
+              I am an aspiring Web/ Software Developer. I have an eagerness and
+              passion for developing software, creating websites, writing code,
+              learning and developing skills and knowledge that will benefit my
+              career in the industry.
             </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Experience/ Projects Section -->
-      <section id="Experience">
-        <div class="album py-5">
-          <div class="container py-5 text-center">
-            <h2 class="display-5 fw-bold">Experience</h2>
-            <hr />
-          </div>
-          <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-              <!-- col -->
-              <div class="col">
-                <div class="card shadow-sm">
-                  <img
-                    src="assets/images/Bug-Tracker-540.png"
-                    alt="Java Bug Tracker"
-                  />
-                  <div class="card-body">
-                    <h4 class="card-text">Bug Tracker</h4>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <div class="btn-group">
-                        <a
-                          href="https://github.com/ITsPorky/Bug-Tracker-Java"
-                          target="_blank"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          Visit Repo
-                        </a>
-                      </div>
-                      <small class="text-muted">Java</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- end col -->
-              <!-- col -->
-              <div class="col">
-                <div class="card shadow-sm">
-                  <img
-                    src="assets/images/Character-Generator-img.png"
-                    alt="Java Bug Tracker"
-                  />
-                  <div class="card-body">
-                    <h4 class="card-text">Fantasy Character Generator</h4>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <div class="btn-group">
-                        <a
-                          href="https://github.com/ITsPorky/Character-Generation-API"
-                          target="_blank"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          Visit Repo
-                        </a>
-                        <a
-                          href="https://character-generation-api.herokuapp.com/"
-                          target="_blank"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          View
-                        </a>
-                      </div>
-                      <small class="text-muted">Node.js/JavaScript</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- end col -->
-            </div>
           </div>
         </div>
       </section>
@@ -195,18 +116,156 @@
       <!-- Work Section -->
       <section id="Work">
         <div class="container py-5 text-center">
-          <h2 class="display-5 fw-bold">Work</h2>
+          <h2 class="display-5 fw-bold">Where I've Worked</h2>
           <hr />
         </div>
         <div class="container">
           <div class="row">
             <div class="col">
-              <p>text</p>
+              <h3>Revolution Creative Group</h3>
+              <b><i>Position: Web Developer</i></b>
+              <hr />
+              <p>
+                Developed, maintained, and updated Wordpress and Shopify sites
+                for clients.
+              </p>
+            </div>
+            <div class="col">
+              <h3>Ecom Capital</h3>
+              <b><i>Position: Web Developer</i></b>
+              <hr />
+              <p>
+                Developed, maintained, and updated Shopify sites for clients.
+              </p>
             </div>
           </div>
         </div>
       </section>
     </div>
+
+    <!-- Experience/ Projects Section -->
+    <section id="Work">
+      <div class="album py-5">
+        <div class="container py-5 text-center">
+          <h2 class="display-5 fw-bold">Things I've Built</h2>
+          <hr />
+        </div>
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <!-- col -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="assets/images/Character-Generator-img-edited.png"
+                  alt="Fantasy Character Generator"
+                />
+                <div class="card-body">
+                  <h4 class="card-text">Fantasy Character Generator API</h4>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <a
+                        href="https://github.com/ITsPorky/Character-Generation-API"
+                        target="_blank"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Visit Repo
+                      </a>
+                      <a
+                        href="https://character-generation-api.herokuapp.com/"
+                        target="_blank"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </a>
+                    </div>
+                    <small class="text-muted">Node.js/JavaScript</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end col -->
+            <!-- col -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="assets/images/Character-Battler.jpg"
+                  alt="Fantasy Character Battler"
+                />
+                <div class="card-body">
+                  <h4 class="card-text">Fantasy Character Battler</h4>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <a
+                        href="https://github.com/ITsPorky/RPG-Character-Battler"
+                        target="_blank"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Visit Repo
+                      </a>
+                      <a
+                        href="https://itsporky.github.io/RPG-Character-Battler/"
+                        target="_blank"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </a>
+                    </div>
+                    <small class="text-muted">React.js/HTML/CSS</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end col -->
+            <!-- col -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="assets/images/Bug-Tracker-540.png"
+                  alt="Java Bug Tracker"
+                />
+                <div class="card-body">
+                  <h4 class="card-text">Bug Tracker</h4>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <a
+                        href="https://github.com/ITsPorky/Bug-Tracker-Java"
+                        target="_blank"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Visit Repo
+                      </a>
+                    </div>
+                    <small class="text-muted">Java</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end col -->
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <div class="container">
