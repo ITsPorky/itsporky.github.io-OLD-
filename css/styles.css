@@ -1,3 +1,15 @@
+:root {
+  --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.portrait-image {
+  border-radius: 100%;
+}
+
 .card-text {
   color: #000;
 }
