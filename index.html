@@ -29,19 +29,30 @@
       href="css/bootstrap/bootstrap.css"
       crossorigin="anonymous"
     />
+    <link
+      href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Scripts -->
+    <script src="js/bootstrap/bootstrap.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/7da6cc5174.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
     <!-- Header -->
     <header>
-      <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+      <nav class="navbar navbar-dark navbar-expand-lg header">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img
               src="assets/images/logo.png"
               alt="Wade Walsh"
               width="30"
-              height="24"
+              height="auto"
             />
           </a>
           <button
@@ -74,141 +85,127 @@
 
     <!-- Main Content -->
     <div class="main-content">
-      <div id="About" class="px-4 py-5 text-center">
-        <img
-          class="d-block mx-auto mb-4"
-          src="assets/images/logo.png"
-          width="100"
-          height="auto"
-          alt="Wade Walsh"
-        />
-        <h1 class="display-5 fw-bold">Hi, I'm Wade Walsh</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">
-            Hi, My name is Wade Walsh and I am an aspiring Web/ Software
-            Developer. I have an eagerness and passion for developing software,
-            creating websites, writing code, learning and developing skills and
-            knowledge that will benefit my career in the industry.
-          </p>
-        </div>
-      </div>
-      <div class="album py-5">
-        <div class="container py-5 text-center">
-          <h2 id="Experience" class="display-5 fw-bold">Experience</h2>
-        </div>
-        <div class="container">
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <!-- col -->
-            <div class="col">
-              <div class="card shadow-sm">
-                <img
-                  src="assets/images/Bug-Tracker-540.png"
-                  alt="Java Bug Tracker"
-                />
-                <div class="card-body">
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Visit Repo
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
-                    </div>
-                    <small class="text-muted">HTML/CSS</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- end col -->
-            <!-- col -->
-            <div class="col">
-              <div class="card shadow-sm">
-                <img
-                  src="assets/images/Bug-Tracker-540.png"
-                  alt="Java Bug Tracker"
-                />
-                <div class="card-body">
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Visit Repo
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
-                    </div>
-                    <small class="text-muted">HTML/CSS</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- end col -->
-            <!-- col -->
-            <div class="col">
-              <div class="card shadow-sm">
-                <img
-                  src="assets/images/Bug-Tracker-540.png"
-                  alt="Java Bug Tracker"
-                />
-                <div class="card-body">
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Visit Repo
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
-                    </div>
-                    <small class="text-muted">HTML/CSS</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- end col -->
+      <!-- About Section -->
+      <section id="About">
+        <div class="container px-4 py-5 text-center">
+          <img
+            class="d-block mx-auto mb-4"
+            src="assets/images/profile-placeholder.png"
+            width="350"
+            height="auto"
+            alt="Wade Walsh"
+          />
+          <h1 class="display-5 fw-bold">Hi, I'm Wade Walsh</h1>
+          <div class="col-lg-8 mx-auto">
+            <p class="lead mb-4">
+              Hi, My name is Wade Walsh and I am an aspiring Web/ Software
+              Developer. I have an eagerness and passion for developing
+              software, creating websites, writing code, learning and developing
+              skills and knowledge that will benefit my career in the industry.
+            </p>
           </div>
         </div>
-      </div>
+      </section>
+
+      <!-- Experience/ Projects Section -->
+      <section id="Experience">
+        <div class="album py-5">
+          <div class="container py-5 text-center">
+            <h2 class="display-5 fw-bold">Experience</h2>
+            <hr />
+          </div>
+          <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <!-- col -->
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    src="assets/images/Bug-Tracker-540.png"
+                    alt="Java Bug Tracker"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-text">Bug Tracker</h4>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group">
+                        <a
+                          href="https://github.com/ITsPorky/Bug-Tracker-Java"
+                          target="_blank"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Visit Repo
+                        </a>
+                      </div>
+                      <small class="text-muted">Java</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end col -->
+              <!-- col -->
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    src="assets/images/Character-Generator-img.png"
+                    alt="Java Bug Tracker"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-text">Fantasy Character Generator</h4>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group">
+                        <a
+                          href="https://github.com/ITsPorky/Character-Generation-API"
+                          target="_blank"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Visit Repo
+                        </a>
+                        <a
+                          href="https://character-generation-api.herokuapp.com/"
+                          target="_blank"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          View
+                        </a>
+                      </div>
+                      <small class="text-muted">Node.js/JavaScript</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end col -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Work Section -->
+      <section id="Work">
+        <div class="container py-5 text-center">
+          <h2 class="display-5 fw-bold">Work</h2>
+          <hr />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <p>text</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
     <!-- Footer -->
@@ -218,15 +215,17 @@
           <li class="nav-item">
             <a
               href="https://github.com/ITsPorky"
+              target="_blank"
               class="nav-link px-2 text-muted"
-              >Github</a
+              ><i class="fa-brands fa-square-github"></i> Github</a
             >
           </li>
           <li class="nav-item">
             <a
               href="https://www.linkedin.com/in/wade-walsh/"
+              target="_blank"
               class="nav-link px-2 text-muted"
-              >Linkedin</a
+              ><i class="fa-brands fa-linkedin"></i> Linkedin</a
             >
           </li>
         </ul>
@@ -235,6 +234,5 @@
     </div>
     <!-- Scripts -->
     <script src="js/scripts.js"></script>
-    <script src="js/bootstrap/bootstrap.js" crossorigin="anonymous"></script>
   </body>
 </html>
