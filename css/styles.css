@@ -4,6 +4,10 @@
   --animation-time: 5s;
 }
 
+html {
+  scroll-padding-top: 3rem;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -54,7 +58,7 @@ img {
 }
 
 .main-content {
-  padding-top: 3rem;
+  margin-top: 3rem;
 }
 
 .external-link {
