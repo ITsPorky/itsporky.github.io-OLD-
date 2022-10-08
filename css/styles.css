@@ -41,16 +41,20 @@ img {
   background: #161b22;
 }
 
-.nav-link {
-  counter-increment: count;
+.navbar-dark .navbar-toggler {
+  border: none;
 }
 
-.nav-link::before {
-  content: attr(data-count);
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 
 .company-logo {
   max-width: 100px;
+}
+
+.main-content {
+  padding-top: 3rem;
 }
 
 .external-link {
