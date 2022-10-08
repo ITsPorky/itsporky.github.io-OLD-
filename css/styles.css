@@ -1,5 +1,6 @@
 :root {
   --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  --font-icons: "Font Awesome 6 Free";
 }
 
 img {
@@ -11,7 +12,7 @@ img {
   font-family: var(--font-mono);
 }
 
-.portrait-image {
+.rounded-image {
   border-radius: 100%;
 }
 
@@ -29,4 +30,25 @@ img {
 
 .nav-link::before {
   content: attr(data-count);
+}
+
+.company-logo {
+  max-width: 100px;
+}
+
+.external-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.external-link:hover {
+  color: #444;
+}
+
+.card {
+  transition: ease-in-out 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }
