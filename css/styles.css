@@ -8,6 +8,11 @@ html {
   scroll-padding-top: 3rem;
 }
 
+body {
+  background: #161b22 !important;
+  color: #fff !important;
+}
+
 img {
   width: 100%;
   height: auto;
