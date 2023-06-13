@@ -113,6 +113,10 @@ img {
   border-radius: 0.25rem 0.25rem 0 0;
 }
 
+.highlighted {
+  color: #38aaec;
+}
+
 /* Glitch Effects */
 .glitch {
   text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
