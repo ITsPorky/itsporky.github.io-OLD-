@@ -1,7 +1,17 @@
 :root {
   --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  --font-rubik-mono: "Rubik Mono One", monospace;
+  --font-rubik: 'Rubik', sans-serif;
   --font-icons: "Font Awesome 6 Free";
   --animation-time: 5s;
+  --github-grey: #161b22;
+  --obsidian-black: #0B1215;
+  --deep-navy-blue: #011222;
+  --rich-black: #020d19;
+  --off-white: #fbfbfb;
+  --ghost-white: #f8f8ff;
+  --alice-blue: #f0f8ff;
+  --branding-blue: #22a1e5;
 }
 
 html {
@@ -9,8 +19,32 @@ html {
 }
 
 body {
-  background: #161b22 !important;
+  background: var(--github-grey) !important;
   color: #fff !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-rubik-mono), monospace;
+}
+
+h1 {
+  font-size: 2.5rem !important;
+}
+
+h2 {
+  font-size: 2.5rem !important;
+}
+
+h3 {
+  font-size: 1.8rem !important;
+}
+
+h4 {
+  font-size: 1.2rem !important;
+}
+
+p {
+  font-family: var(--font-rubik);
 }
 
 img {
@@ -42,6 +76,10 @@ img {
   font-family: var(--font-mono);
 }
 
+.font-rubik {
+  font-family: var(--font-rubik);
+}
+
 .rounded-image {
   border-radius: 100%;
 }
@@ -63,7 +101,7 @@ img {
 }
 
 .main-content {
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .external-link {
@@ -114,7 +152,7 @@ img {
 }
 
 .highlighted {
-  color: #38aaec;
+  color: var(--branding-blue);
 }
 
 /* Glitch Effects */

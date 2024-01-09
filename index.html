@@ -40,6 +40,16 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+
     <meta
       name="google-site-verification"
       content="WmCl0-F8aDSKlOzf7X0RmqU14NLmCkPJ5xZd3M4YEaI"
@@ -66,12 +76,12 @@
       <nav class="navbar navbar-dark fixed-top navbar-expand-lg header">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <!-- <img
+            <img
               style="max-width: 80px"
-              src="assets/images/logo.png"
+              src="\assets\images\Wade-Walsh-logo-white-no-bg.png"
               alt="Wade Walsh"
-            /> -->
-            <h1 class="font-mono glitch">{WW}</h1>
+            />
+            <!-- <h1 class=" ">{WW}</h1> -->
           </a>
           <button
             class="navbar-toggler"
@@ -88,18 +98,20 @@
             class="collapse navbar-collapse justify-content-end"
             id="navbarNavAltMarkup"
           >
-            <div class="navbar-nav navbar-nav-scroll font-mono fw-bold">
+            <div class="navbar-nav navbar-nav-scroll  fw-bold">
               <a
-                class="nav-link glitch-hover px-3"
+                class="nav-link  px-3"
                 aria-current="page"
                 href="#About"
                 >01. About</a
               >
-              <a class="nav-link glitch-hover px-3" href="#Experience"
+              <a class="nav-link  px-3" href="#Experience"
                 >02. Experience</a
               >
-              <a class="nav-link glitch-hover px-3" href="#Work">03. Work</a>
-              <a class="nav-link glitch-hover px-3" href="#Contact"
+              <a class="nav-link  px-3" href="#Projects"
+                >03. Projects</a
+              >
+              <a class="nav-link  px-3" href="#Contact"
                 >04. Contact</a
               >
             </div>
@@ -121,7 +133,7 @@
             height="350"
             alt="Wade Walsh"
           />
-          <h1 class="display-5 fw-bold glitch font-mono">
+          <h1 class="display-5 fw-bold  ">
             Hi, I'm <span class="highlighted">Wade Walsh</span>
           </h1>
           <div class="col-lg-8 mx-auto">
@@ -139,15 +151,37 @@
       <!-- Work Section -->
       <section id="Experience">
         <div class="container py-5 text-center">
-          <h2 class="display-5 fw-bold glitch font-mono">
-            02. Where I've <span class="highlighted">Worked</span>
+          <h2 class="display-5 fw-bold  ">
+            02. My <span class="highlighted">Experience</span>
           </h2>
           <hr />
         </div>
         <div class="container">
           <div
-            class="row row-cols-1 row-cols-md-2 g-3 justify-content-around text-center"
+            class="row row-cols-1 row-cols-md-2 g-3 pt-2 pb-2 justify-content-around text-center"
           >
+            <div class="col">
+              <div class="dark-card py-3">
+                <img
+                  class="company-logo img rounded-image mb-3"
+                  src="/assets/images/UniSQ-Logo.jpg"
+                  width="100"
+                  height="100"
+                  alt="University of Southern Queensland"
+                />
+                <h4>University of Southern Queensland</h4>
+                <b><i>Degree: Bachelor of Science - Computing</i></b>
+                <br />
+                <i>Skills: HTML, CSS, Javascript, PHP, C++, Java, Python</i>
+                <hr />
+                <p>
+                  During my time at the University of Southern Queensland, I
+                  learnt about Web Development, Software Development, Maths,
+                  Statistics, Microproccesor programming, and Algorithms & Data
+                  Structures.
+                </p>
+              </div>
+            </div>
             <div class="col">
               <div class="dark-card py-3">
                 <img
@@ -157,7 +191,7 @@
                   height="100"
                   alt="Revolution Creative Group Logo"
                 />
-                <h3>Revolution Creative Group</h3>
+                <h4>Revolution Creative Group</h4>
                 <b><i>Position: Web Developer</i></b>
                 <br />
                 <i
@@ -173,6 +207,10 @@
                 </p>
               </div>
             </div>
+          </div>
+          <div
+            class="row row-cols-1 row-cols-md-2 g-3 pt-2 pb-2 justify-content-around text-center"
+          >
             <div class="col">
               <div class="dark-card py-3">
                 <img
@@ -182,7 +220,7 @@
                   height="100"
                   alt="Revolution Creative Group Logo"
                 />
-                <h3>Ecom Capital</h3>
+                <h4>Ecom Capital</h4>
                 <b><i>Position: Web Developer</i></b>
                 <br />
                 <i
@@ -198,21 +236,98 @@
                 </p>
               </div>
             </div>
+            <div class="col">
+              <div class="dark-card py-3">
+                <img
+                  class="company-logo img rounded-image mb-3"
+                  src="/assets/images/Wade-Walsh-logo-white-bg.png"
+                  width="100"
+                  height="100"
+                  alt="Wade Walsh - Logo"
+                />
+                <h4>Wade Walsh - Freelance</h4>
+                <b><i>Position: Web Developer</i></b>
+                <br />
+                <i
+                  >Skills: Wordpress, Shopify, Liquid Templating, HTML, CSS,
+                  Javascript, PHP, Bootstrap</i
+                >
+                <hr />
+                <p>
+                  Building & designing Wordpress and Shopify Sites for other
+                  Companies as a contractor and freelance projects with clients
+                  of my own.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       <!-- Experience/ Projects Section -->
-      <section id="Work">
+      <section id="Projects">
         <div class="album py-5">
           <div class="container py-5 text-center">
-            <h2 class="display-5 fw-bold glitch font-mono">
+            <h2 class="display-5 fw-bold  ">
               03. Things I've <span class="highlighted">Built</span>
             </h2>
             <hr />
           </div>
           <div class="container">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+            <div class="row pt-5 pb-5">
+              <h3 class="display-5 fw-bold  text-center">
+                <span class="highlighted">Websites</span> I've Built
+              </h3>
+            </div>
+            <div
+              class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-3 pt-2 pb-2"
+            >
+              <!-- col -->
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    src="assets/images/lendcofinance.com.jpg"
+                    alt="Fantasy Character Battler"
+                    width="450"
+                    height="244"
+                    class="img-fluid project-img"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-text">Lendco Finance</h4>
+                    <p class="card-text">
+                      A Wordpress site created for a finance company. They offer
+                      a variety of finance options for their clients.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group">
+                        <a
+                          href="https://lendcofinance.com.au/"
+                          target="_blank"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          View
+                        </a>
+                      </div>
+                      <small class="text-muted"
+                        >Wordpress/JavaScript/PHP/CSS</small
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end col -->
+            </div>
+            <!-- Row 2 -->
+            <div class="row pt-5 pb-5">
+              <h3 class="display-5 fw-bold  text-center">
+                <span class="highlighted">Projects</span> I've Built
+              </h3>
+            </div>
+            <div
+              class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 pt-2 pb-2"
+            >
               <!-- col -->
               <div class="col">
                 <div class="card shadow-sm">
@@ -301,7 +416,7 @@
               <div class="col">
                 <div class="card shadow-sm">
                   <img
-                    src="assets/images/2D-Proc-Gen-optimised.jpg"
+                    src="assets/images/Procedural-Gen-unity-optimised.jpg"
                     alt="2D Procedural Generator"
                     width="450"
                     height="244"
@@ -319,7 +434,7 @@
                     >
                       <div class="btn-group">
                         <a
-                          href="https://drive.google.com/file/d/134mTosdErbmc_6SVvAKdh88csMGQbXMm/view?usp=share_link"
+                          href="assets/projects/2D Procedural Terrain v0.0.8-development-build(Biomes).zip"
                           target="_blank"
                           class="btn btn-sm btn-outline-secondary"
                         >
@@ -340,7 +455,7 @@
 
     <!-- Footer -->
     <div id="Contact" class="container mt-5">
-      <h2 class="display-5 fw-bold text-center glitch font-mono">
+      <h2 class="display-5 fw-bold text-center  ">
         04. My <span class="highlighted">Details</span>
       </h2>
       <hr />
@@ -349,7 +464,7 @@
           Email:
           <a
             href="mailto:wc.walsh16@gmail.com"
-            class="link-secondary glitch-hover"
+            class="link-secondary "
             >wc.walsh16@gmail.com</a
           >
         </p>
@@ -358,7 +473,7 @@
             <a
               href="https://github.com/ITsPorky"
               target="_blank"
-              class="nav-link px-2 text-muted glitch-hover"
+              class="nav-link px-2 text-muted "
               ><i class="fa-brands fa-github"></i> Github</a
             >
           </li>
@@ -367,12 +482,12 @@
               href="https://www.linkedin.com/in/wade-walsh/"
               target="_blank"
               ++
-              class="nav-link px-2 text-muted glitch-hover"
+              class="nav-link px-2 text-muted "
               ><i class="fa-brands fa-linkedin"></i> Linkedin</a
             >
           </li>
         </ul>
-        <p class="text-center text-muted">© 2022 Wade Walsh</p>
+        <p class="text-center text-muted">© 2024 Wade Walsh</p>
       </footer>
     </div>
     <!-- Scripts -->
